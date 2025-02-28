@@ -437,11 +437,11 @@ int main ( void )
             isUSARTTxComplete = false;
             
             // reset values to detect missing mem writes
-            transaction = 0xDEAD;
-            eat_out = 0xDEAD;
-            stay_in = 0xDEAD;
-            eat_ice_cream = 0xDEAD;
-            we_have_a_problem = 0xDEAD;
+            transaction = 0xDEED;
+            eat_out = 0xDEED;
+            stay_in = 0xDEED;
+            eat_ice_cream = 0x4242;
+            we_have_a_problem = 0xDEED;
           
             // set the balance global variable to the test value
             balance = tc[testCase][0];

@@ -7,21 +7,6 @@
 /* Tell the assembler that what follows is in data memory    */
 .data
 .align
- 
-/* define and initialize global variables that C can access */
-/* create a string */
-.global nameStr
-.type nameStr,%gnu_unique_object
-    
-/*** STUDENTS: Change the next line to your name!  **/
-nameStr: .asciz "Inigo Montoya"  
-
-.align   /* realign so that next mem allocations are on word boundaries */
- 
-/* initialize a global variable that C can access to print the nameStr */
-.global nameStrPtr
-.type nameStrPtr,%gnu_unique_object
-nameStrPtr: .word nameStr   /* Assign the mem loc of nameStr to nameStrPtr */
 
 .global balance,transaction,eat_out,stay_in,eat_ice_cream,we_have_a_problem
 .type balance,%gnu_unique_object
@@ -42,7 +27,26 @@ stay_in:           .word     0  /* output value */
 eat_ice_cream:     .word     0  /* output value */
 we_have_a_problem: .word     0  /* output value */
 
- /* Tell the assembler that what follows is in instruction memory    */
+.align
+ 
+/* define and initialize global variables that C can access */
+/* create a string */
+.global nameStr
+.type nameStr,%gnu_unique_object
+    
+/*** STUDENTS: Change the next line to your name!  **/
+nameStr: .asciz "Inigo Montoya"  
+
+.align   /* realign so that next mem allocations are on word boundaries */
+ 
+/* initialize a global variable that C can access to print the nameStr */
+.global nameStrPtr
+.type nameStrPtr,%gnu_unique_object
+nameStrPtr: .word nameStr   /* Assign the mem loc of nameStr to nameStrPtr */
+.align
+
+    
+/* Tell the assembler that what follows is in instruction memory    */
 .text
 .align
 
