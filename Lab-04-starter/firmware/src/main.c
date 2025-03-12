@@ -499,7 +499,7 @@ int main ( void )
             uint32_t pointsScored = numPointsMax * totalPassCount / totalTests;
             
             snprintf((char*)uartTxBuffer, MAX_PRINT_LEN,
-                    "========= %s: integer division: ALL TESTS COMPLETE: Post-test Idle Cycle Number: %ld\r\n"
+                    "========= %s: Bank Account: ALL TESTS COMPLETE: Post-test Idle Cycle Number: %ld\r\n"
                     "Summary of tests: %ld of %ld tests passed\r\n"
                     "Final score for test cases: %ld of %ld points\r\n"
                     "\r\n",
