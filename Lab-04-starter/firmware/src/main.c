@@ -502,6 +502,7 @@ int main ( void )
                     "========= %s: Bank Account: ALL TESTS COMPLETE: Post-test Idle Cycle Number: %ld\r\n"
                     "Summary of tests: %ld of %ld tests passed\r\n"
                     "Final score for test cases: %ld of %ld points\r\n"
+                    "FINI!!!!!\r\n"
                     "\r\n",
                     (char *) nameStrPtr, idleCount, 
                     totalPassCount, totalTests,
