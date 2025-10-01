@@ -40,8 +40,3 @@
 *.s~
 *.c~
 *.DS_Store
-/Lab-04-starter/firmware/Lab-04-starter.X/build/
-/Lab-04-starter/firmware/Lab-04-starter.X/dist/
-Lab-04-starter/firmware/Lab-04-starter.X/nbproject/Makefile-genesis.properties
-Lab-04-starter/firmware/Lab-04-starter.X/nbproject/Makefile-local-sam_e51_cnano.mk
-Lab-04-starter/firmware/Lab-04-starter.X/nbproject/Makefile-sam_e51_cnano.mk
