@@ -42,6 +42,6 @@
 *.DS_Store
 /Lab-04-starter/firmware/Lab-04-starter.X/build/
 /Lab-04-starter/firmware/Lab-04-starter.X/dist/
-/Lab-04-starter/firmware/Lab-04-starter.X/nbproject/Makefile-*
+Lab-04-starter/firmware/Lab-04-starter.X/nbproject/Makefile-*
 /Lab-04-starter/hex/
 
